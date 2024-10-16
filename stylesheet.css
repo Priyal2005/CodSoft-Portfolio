@@ -1,0 +1,365 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    width: 100%;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+h2 {
+    font-size: xx-large;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: rgb(51, 245, 225);
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(50, 138, 246);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #f4f4f4;
+    padding: 200px;
+    background-image: url(https://www.shutterstock.com/image-photo/top-down-aerial-view-professional-260nw-2475044841.jpg);
+    fill-opacity: 1;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: lightblue;
+    border: 1px solid #4714f0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills {
+    background-image: url(https://www.zdnet.com/a/img/resize/0a6b0be2f543ddbf313fc83a706b807b77c3c202/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=900&width=1200);
+    fill-opacity: 1;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 100px;
+}
+
+h4 {
+    font-size: 50px;
+    color: white;
+    margin-left: -50px;
+}
+
+.pic1 {
+    border-radius: 70%;
+    width: 17%;
+    margin: -13rem 1rem -3rem 71rem;
+}
+
+.cc {
+    background-color: rgb(133, 131, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    width: 150px;
+    border-color: black;
+}
+
+.cc:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.cinfo {
+    width: 62%;
+    color: orange;
+    margin: -4rem 1rem 3rem 29rem;
+}
+
+.html {
+    background-color: rgb(133, 131, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-bottom: 25px;
+    width: 150px;
+    border-color: black;
+}
+
+.html:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.htmlinfo {
+    width: 62%;
+    color: orange;
+    margin: -4rem 1rem 3rem -10rem;
+}
+
+.css {
+    background-color: rgb(133, 131, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    width: 150px;
+    border-color: black;
+}
+
+.css:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.cssinfo {
+    width: 62%;
+    color: orange;
+    margin: -4rem 1rem 3rem 29rem;
+}
+
+.js {
+    background-color: rgb(133, 131, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-bottom: 25px;
+    width: 150px;
+    border-color: black;
+}
+
+.js:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.jsinfo {
+    width: 62%;
+    color: orange;
+    margin: -4rem 1rem 3rem -9rem;
+}
+
+.git {
+    background-color: rgb(133, 131, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    width: 150px;
+    border-color: black;
+}
+
+.git:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.gitlaninfo {
+    width: 62%;
+    color: orange;
+    margin: -4rem 1rem 3rem 29rem;
+}
+
+.github {
+    background-color: rgb(133, 131, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-bottom: 25px;
+    width: 150px;
+    border-color: black;
+}
+
+.github:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.githublaninfo {
+    width: 62%;
+    color: orange;
+    margin: -4rem 1rem 3rem -10rem;
+}
+
+.responsive {
+    background-color: rgb(133, 131, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    width: 150px;
+    border-color: black;
+}
+
+.responsive:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.responseinfo {
+    width: 62%;
+    color: orange;
+    margin: -4rem 1rem 3rem 29rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    background-color: #333;
+    color: rgb(247, 246, 251);
+    background-image: url(https://www.shutterstock.com/image-photo/technology-communication-contact-us-customer-260nw-2482666349.jpg);
+    fill-opacity: 1;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #3e3bf8;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: rgb(94, 118, 253);
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 480px) {
+    body{
+        display: grid;
+    }
+    header{
+width: 112%;
+    }
+.projects{
+    width: 82%;
+    height: 20rem;
+}
+.skills{
+    width: 97%;
+}
+.contact{
+    width: 112%;
+    height: 34rem;
+}
+footer{
+    width: 112%;
+    height: 3rem;
+    font-size: 25px;
+}
+}
